@@ -1,0 +1,40 @@
+#abc
+{
+border-style:inset;
+font-family:cursive;
+font-size:40px;
+margin-left:2px;
+}
+body{
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color:grey;
+  left: 2px;
+  right:2px;
+ }
+
+<style>
+#sobika{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+}
+#sobika img{
+
+border:2px solid black;
+border-radius:13px;
+box-shadow:4px 7px 7px o px black;
+cursor:pointer;
+margin:10px;
+transition:400ms;
+}
+#sobika img:hover{
+filter:grayscale(1);
+transform:scale(1.03);
+}
+</style>
+
+
