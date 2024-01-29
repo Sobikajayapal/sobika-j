@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+
+
+</head>
+<body>
+
+
+	
+		<brform action="/save" method="post" th:object="${book}">
+			
+			<input type="text" name="id" /><br></br>
+			<input type="text" name="name">	<br></br>
+			
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	
+
+
+</body>
+</html>
